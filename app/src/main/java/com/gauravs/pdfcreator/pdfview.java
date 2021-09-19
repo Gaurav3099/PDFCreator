@@ -20,7 +20,7 @@ public class pdfview extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdfview);
         pdfview = (PDFView)findViewById(R.id.pdfview);
-        init(this, "204329486", true);
+        init(this, "2", true);
         Intent intent = getIntent();
         String path = intent.getStringExtra("path");
         File pd = new File(path);
