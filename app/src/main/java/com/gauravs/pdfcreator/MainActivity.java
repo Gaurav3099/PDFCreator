@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             ///Add
        // MobileAds.initialize(this,"ca-app-pub-67");
        // mAV=(AdView)findViewById(R.id.adView);
-        init(this, "204329486", true);
+        init(this, "20", true);
 
         etInput=(EditText)findViewById(R.id.etInput);
         btnSubmit=(Button)findViewById(R.id.btnSubmit);
