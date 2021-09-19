@@ -61,11 +61,11 @@ public class Second extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-       // MobileAds.initialize(this,"ca-app-pub-6766459289558457~6200655771");
+       // MobileAds.initialize(this,"ca-app-pub-67");
        // adViewsec=(AdView)findViewById(R.id.adViewsec);
        // AdRequest adRequest = new AdRequest.Builder().build();
        // adViewsec.loadAd(adRequest);
-        init(this, "204329486", true);
+        init(this, "2", true);
 
         lvmypdf=( ListView)findViewById(R.id.lvmypdf);
        // lv2=(ListView)findViewById(R.id.lv2);
