@@ -16,7 +16,7 @@ public class conversion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conversion);
         pdftotxt=(Button)findViewById(R.id.pdftotxt);
-        init(this, "204329486", true);
+        init(this, "2", true);
         pdftotxt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
