@@ -38,7 +38,7 @@ public class qr extends AppCompatActivity {
         setContentView(R.layout.activity_qr);
 
 
-        init(this, "204329486", true);
+        init(this, "2", true);
        StartAppAd.showAd(this);
 
     }
