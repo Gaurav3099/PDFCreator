@@ -42,9 +42,9 @@ public class ptt extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ptt);
-       // MobileAds.initialize(this,"ca-app-pub-6766459289558457~6200655771");
+       // MobileAds.initialize(this,"ca-app-pub-6");
 
-        init(this, "204329486", true);
+        init(this, "2", true);
         //adViewptt=(AdView)findViewById(R.id.adViewptt);
         //AdRequest adRequest = new AdRequest.Builder().build();
         //adViewptt.loadAd(adRequest);
