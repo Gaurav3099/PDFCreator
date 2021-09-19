@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
             ///Add
-       // MobileAds.initialize(this,"ca-app-pub-6766459289558457~6200655771");
+       // MobileAds.initialize(this,"ca-app-pub-67");
        // mAV=(AdView)findViewById(R.id.adView);
         init(this, "204329486", true);
 
