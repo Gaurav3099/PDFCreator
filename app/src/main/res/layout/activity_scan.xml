@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gauravs.pdfcreator.Scan">
+
+
+    <ImageButton
+        android:id="@+id/ibCam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#2035E9"
+        app:srcCompat="@drawable/cameram" />
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6766459289558457/9014946404">
+    </com.google.android.gms.ads.AdView>
+
+    <ImageButton
+        android:id="@+id/ibg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2035E9"
+        app:srcCompat="@drawable/gallerym"
+        android:layout_below="@+id/ibCam"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/itp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2035E9"
+        app:srcCompat="@drawable/pdft"
+        android:layout_below="@+id/ibg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text="Open Camera"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ibCam"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text=" Extract Image From PDF"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/itp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="Open Gallery"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/ibg"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+
+</RelativeLayout>

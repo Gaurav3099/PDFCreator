@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_viewer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.gauravs.pdfcreator.viewer">
+    <ListView
+        android:id="@+id/listView1"
+        android:divider="#FA0679"
+        android:dividerHeight="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    <com.startapp.android.publish.ads.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_alignParentBottom="true"
+        />
+
+
+
+
+</RelativeLayout>

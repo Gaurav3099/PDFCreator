@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.gauravs.pdfcreator.Mer">
+
+    <ListView
+        android:id="@+id/lvpdfs"
+        android:divider="@android:color/holo_red_light"
+        android:dividerHeight="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

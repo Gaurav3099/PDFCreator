@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.gauravs.pdfcreator"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionName '3'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionCode 3
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            //minifyEnabled false
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/font'] } }
+    productFlavors {
+    }
+}
+repositories {
+    jcenter()
+}
+
+repositories {
+    maven {
+        url 'https://dl.bintray.com/zahid/maven/'
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.itextpdf:itextg:5.5.10'
+    compile 'com.itextpdf:itextg:5.5.10'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.github.blikoon:QRCodeScanner:0.1.2'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.github.barteksc:android-pdf-viewer:2.7.0'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.google.android.gms:play-services-ads:11.0.0'
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mpdf"
+
+            android:icon="@mipmap/np"
+            android:title="My PDF " />
+        <item
+            android:id="@+id/qr"
+
+            android:icon="@mipmap/nqr"
+            android:title="QR Code Scanner " />
+        <item
+            android:id="@+id/StT"
+
+            android:icon="@mipmap/mi"
+            android:title="Speech To Text" />
+
+        <item
+            android:id="@+id/pttxt"
+
+            android:icon="@mipmap/np"
+            android:title="Convert PDF file to Text file " />
+        <item
+            android:id="@+id/txttpdf"
+
+            android:icon="@mipmap/np"
+            android:title="Convert Text file to PDF file" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+
+                android:icon="@drawable/common_google_signin_btn_icon_light_normal"
+                android:title="Share this App link "
+                />
+            <item
+                android:id="@+id/rate"
+
+                android:icon="@drawable/common_google_signin_btn_icon_light_normal"
+                android:title="Rate us "
+                />
+            <item
+                android:id="@+id/fb"
+
+                android:icon="@drawable/common_full_open_on_phone"
+                android:title="Feedback"
+                />
+
+
+
+
+
+        </menu>
+    </item>
+</menu>

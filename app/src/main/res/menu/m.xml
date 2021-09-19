@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+
+    <item
+        android:id="@+id/txtp"
+        android:orderInCategory="100"
+        android:title="Convert Text File To PDF" />
+    <item
+        android:id="@+id/ptxt"
+        android:orderInCategory="100"
+        android:title="Convert PDF File To Text " />
+    <item
+        android:id="@+id/mypdf"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/pf"
+        android:title="My PDF"
+        />
+
+
+
+
+</menu>
