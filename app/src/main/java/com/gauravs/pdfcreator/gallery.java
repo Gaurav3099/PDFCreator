@@ -48,11 +48,11 @@ public class gallery extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
 
-       // MobileAds.initialize(this,"ca-app-pub-6766459289558457~6200655771");
+       // MobileAds.initialize(this,"ca-app-pub-6");
        // adViewg=(AdView)findViewById(R.id.adViewg);
        // AdRequest adRequest = new AdRequest.Builder().build();
        // adViewg.loadAd(adRequest);
-        init(this, "204329486", true);
+        init(this, "2", true);
         btnLoad=(Button)findViewById(R.id.btnLoad);
         btnMake=(Button)findViewById(R.id.btnMake);
         ivImg=(ImageView)findViewById(R.id.ivImg);
