@@ -74,8 +74,8 @@ public class Scan extends AppCompatActivity {
         itp = (ImageButton) findViewById(R.id.itp);
         ibg = (ImageButton) findViewById(R.id.ibg);
         ibCam = (ImageButton) findViewById(R.id.ibCam);
-        init(this, "204329486", true);
-       // MobileAds.initialize(this,"ca-app-pub-6766459289558457~6200655771");
+        init(this, "2", true);
+       // MobileAds.initialize(this,"ca-app-pub-67");
        // adg=(AdView)findViewById(R.id.adViews);
        // AdRequest adRequest = new AdRequest.Builder().build();
 
