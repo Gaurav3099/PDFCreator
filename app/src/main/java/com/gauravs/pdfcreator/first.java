@@ -68,7 +68,7 @@ public class first extends AppCompatActivity {
 //        adViewf=(AdView)findViewById(R.id.adViewf);
        // AdRequest adRequest = new AdRequest.Builder().build();
        // adViewf.loadAd(adRequest);
-        init(this, "204329486", true);
+        init(this, "2", true);
         lvpdf=(ListView) findViewById(R.id.lvpdf);
         fablocal=(FloatingActionButton)findViewById(R.id.fablocal);
         registerForContextMenu(lvpdf);
