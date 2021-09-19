@@ -37,11 +37,11 @@ public class viewer extends AppCompatActivity {
         setContentView(R.layout.activity_viewer);
 
         //AD
-        //MobileAds.initialize(viewer.this,"ca-app-pub-6766459289558457~6200655771");
+        //MobileAds.initialize(viewer.this,"ca-app-pub-6");
         //adViewv=(AdView)findViewById(R.id.adViewv);
         //AdRequest adRequest = new AdRequest.Builder().build();
         //adViewv.loadAd(adRequest);
-        init(this, "204329486", true);
+        init(this, "2", true);
         list = (ListView) findViewById(R.id.listView1);
         pdf_paths.clear();
         pdf_names.clear();
